@@ -1,12 +1,17 @@
 Package: test4pkg
-Title: What the Package Does (One Line, Title Case)
+Title: Learn the workflow to build a package
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jiaxiang",
+           family = "Li",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "alex.lijiaxiang@foxmail.com")
+Description: Learn the workflow to build a package.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    covr,
+    testthat,
+    spelling
+Language: en-US
